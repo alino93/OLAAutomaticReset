@@ -32,5 +32,23 @@ Expected output (should show "ch34x" now):
 [  xxx] ch34x 3-2:1.0: device disconnected
 ```
 
-more here: https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/linux
-- 
+- more here: https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/linux
+
+## Create an autostart 
+- Solution1: Copy the file "clock.desktop" to this directory: "/home/pi/.config/autostart" 
+- Solution 2:Open a terminal, and execute the following commands to create an autostart directory
+
+```
+mkdir /home/pi/.config/autostart
+nano /home/pi/.config/autostart/clock.desktop
+```
+Then edit the autostart:
+
+```
+nano /home/pi/.config/autostart/clock.desktop
+```
+
+Write ```sh -c "/home/pi/Desktop/install_driver.sh & arduino"``` in front of Exec= entry.
+
+
+- more here: https://forums.raspberrypi.com/viewtopic.php?t=294014
