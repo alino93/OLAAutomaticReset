@@ -36,7 +36,7 @@ Expected output (should show "ch34x" now):
 
 ## Create an autostart 
 - Solution1: Copy the file "clock.desktop" to this directory: "/home/pi/.config/autostart" 
-- Solution 2:Open a terminal, and execute the following commands to create an autostart directory
+- Solution2: Open a terminal, and execute the following commands to create an autostart directory
 
 ```
 mkdir /home/pi/.config/autostart
