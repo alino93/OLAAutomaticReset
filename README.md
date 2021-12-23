@@ -40,10 +40,9 @@ Expected output (should show "ch34x" now):
 
 ```
 mkdir /home/pi/.config/autostart
-nano /home/pi/.config/autostart/clock.desktop
 ```
-Then edit the autostart:
 
+Then edit the autostart:
 ```
 nano /home/pi/.config/autostart/clock.desktop
 ```
