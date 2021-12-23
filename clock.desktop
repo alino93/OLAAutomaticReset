@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Clock
+Exec=sh -c "/home/pi/Desktop/install_driver.sh & arduino"
