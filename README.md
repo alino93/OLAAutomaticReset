@@ -1,7 +1,7 @@
 # sensorAutomaticReset
 - Automatic Reset/setting of Sparkfun OLA boards while charging using Raspberry Pi
 - Whenever you connect the OLA to a raspberry pi it will open arduino and restarts the OLA 
-- Use similar approach to run any program, download the data, or change the settings on the OLA
+- Potentially useful to run any program, download the data, or change the settings on the OLA
 
 ## Install arudino IDE on raspberry pi for setting the OLA on Raspberry Pi
 ```sudo apt install arduino ```
