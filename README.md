@@ -53,3 +53,4 @@ Give it the address to install_driver.sh for example if its on desktop: ```sh -c
 
 
 - more here: https://forums.raspberrypi.com/viewtopic.php?t=294014
+
